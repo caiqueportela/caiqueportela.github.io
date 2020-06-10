@@ -3,5 +3,10 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+  <pre id="js"></pre>
+  <script>
+    const preJs = document.querySelector('#id');
+    preJs.innerhtml = JSON.stringify({platform: navigator.platform, userAgent: navigator.userAgent});
+  </script>
 </body>
 </html>
